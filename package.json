@@ -1,0 +1,32 @@
+{
+    "name": "prisma-mysql",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "prisma generate",
+        "start": "node server/index.js",
+        "dev": "nodemon server/index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@prisma/client": "^4.3.1",
+        "colors": "^1.4.0",
+        "cors": "^2.8.5",
+        "express": "^4.18.1",
+        "express-graphql": "^0.12.0",
+        "graphql": "^15.8.0",
+        "prisma": "^4.3.1",
+        "mongoose": "^6.3.5"
+    },
+    "devDependencies": {
+        "@types/node": "^18.7.16",
+        "dotenv": "^16.0.1",
+        "nodemon": "^2.0.16",
+        "ts-node": "^10.9.1",
+        "gh-pages": "^3.2.3",
+        "typescript": "^4.8.3"
+    }
+}
