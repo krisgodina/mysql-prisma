@@ -2,6 +2,6 @@
 
 ## Using AWS RDS
 
-# Website
+## Website
 
 https://mysql-prisma-graphql.netlify.app/
